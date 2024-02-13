@@ -130,6 +130,19 @@ main{
       nav{
             flex-direction: column;
       }
+
+      /*feature responsive*/
+      .teams-container{
+            flex-direction: column;
+      }
+
+      .teams-img-container{
+            grid-template-columns: repeat(1, 1fr);
+      }
+      .teams-content{
+            padding-left: 20px;
+            padding-right: 20px;
+      }
 }
 
 /*tablet or medium device*/
